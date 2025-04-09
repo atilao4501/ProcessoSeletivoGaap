@@ -1,0 +1,2 @@
+sap.ui.define(["sap/base/Log","sap/ui/core/mvc/Controller","sap/ui/model/json/JSONModel","sap/m/MessageToast","sap/ui/core/format/DateFormat","sap/ui/thirdparty/jquery","sap/ui/core/date/UI5Date"],function(e,t,a,o,i,jQuery,s){"use strict";return t.extend("ui5-template.ui5-template.controller.MainView",{onInit:function(){const e=new a({results:[{title:"Fazer tarefa 1",completed:true},{title:"Fazer tarefa 2",completed:false}]});this.getView().setModel(e,"invoicesModel")}})});
+//# sourceMappingURL=MainView.controller.js.map

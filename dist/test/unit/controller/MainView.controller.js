@@ -1,0 +1,2 @@
+sap.ui.define(["ui5-template/ui5-template/controller/MainView.controller"],function(t){"use strict";QUnit.module("MainView Controller");QUnit.test("I should test the MainView controller",function(e){var n=new t;n.onInit();e.ok(n)})});
+//# sourceMappingURL=MainView.controller.js.map
