@@ -1,6 +1,6 @@
 .myBlueButton {
-  border: 2px solid #0070f2;
-  color: #0070f2;
+  border: 2px solid #0a6ed1;
+  color: #0a6ed1;
   border-radius: 4px;
   background-color: transparent;
   padding: 0.25rem 0.5rem;
@@ -10,10 +10,10 @@
   margin-bottom: 0.25rem;
 }
 .myBlueButton:hover {
-  background-color: #e0efff;
-  color: #003366;
+  background-color: #d1e9fd;
+  color: #0854a0;
 }
 .myBlueButton:active {
-  background-color: #b3d8ff;
-  color: #002244;
+  background-color: #a9d4f5;
+  color: #083b77;
 }

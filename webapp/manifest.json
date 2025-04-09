@@ -80,18 +80,34 @@
       },
       "routes": [
         {
-          "name": "RouteMainView",
-          "pattern": "RouteMainView",
-          "target": ["TargetMainView"]
+          "name": "MainView",
+          "pattern": "",
+          "target": ["TargetInvoicesView"]
+        },
+        {
+          "name": "DetailedView",
+          "pattern": "DetailedView/{id}",
+          "target": "DetailedView"
+        },
+        {
+          "name": "RouteNotFound",
+          "pattern": "notFound",
+          "target": ["TargetNotFound"]
         }
       ],
       "targets": {
-        "TargetMainView": {
+        "TargetInvoicesView": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "MainView",
-          "viewName": "MainView"
+          "viewId": "InvoicesView",
+          "viewName": "InvoicesView"
+        },
+        "DetailedView": {
+          "viewName": "DetailedView",
+          "viewId": "DetailedView",
+          "viewType": "XML",
+          "transition": "slide"
         }
       }
     }

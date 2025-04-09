@@ -5,36 +5,5 @@
 	xmlns:c="sap.ui.core"
 	xmlns:m="sap.m"
 	xmlns:core="sap.ui.core" displayBlock="true">
-	<m:App id="app">
-		<m:pages>
-			<m:Page id="page" showHeader="false">
-				<m:SearchField width="100%" search=".onSearch" />
-				<m:content>
-					<Table rows="{invoicesModel>/}" selectionMode="None" width="100%">
-						<columns>
-							<Column minWidth="10vw" width="60vw">
-								<m:Label text="Nome" />
-								<template>
-									<m:Text text="{invoicesModel>title}" wrapping="true" />
-								</template>
-							</Column>
-							<Column>
-								<m:Label text="Completado" />
-								<template>
-									<m:CheckBox selected="{invoicesModel>completed}" />
-								</template>
-							</Column>
-							<Column>
-								<m:Label text="Detalhes" />
-								<template>
-									<m:Button icon="sap-icon://action" type="Unstyled" tooltip="Ver detalhes" press="onDetalhesPress" width="100%" class="myBlueButton"/>
-
-								</template>
-							</Column>
-						</columns>
-					</Table>
-				</m:content>
-			</m:Page>
-		</m:pages>
-	</m:App>
+	<m:App id="app"/>
 </mvc:View>
