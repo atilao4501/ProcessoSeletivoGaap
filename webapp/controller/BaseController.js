@@ -2,7 +2,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
   "use strict";
 
   return Controller.extend(
-    "ui5-template.ui5-template.controller.BaseController",
+    "listagem-invoices.listagem-invoices.controller.BaseController",
     {}
   );
 });

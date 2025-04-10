@@ -1,11 +1,11 @@
 {
-  "name": "ui5-template",
+  "name": "listagem-invoices",
   "version": "1.0.0",
   "description": "Template for UI5 apps",
   "main": "webapp/index.html",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grknylmz/ui5-template.git"
+    "url": "git+https://github.com/grknylmz/listagem-invoices.git"
   },
   "author": "Gurkan Yilmaz",
   "license": "MIT",
@@ -16,9 +16,9 @@
     "build": "ui5 build"
   },
   "bugs": {
-    "url": "https://github.com/grknylmz/ui5-template/issues"
+    "url": "https://github.com/grknylmz/listagem-invoices/issues"
   },
-  "homepage": "https://github.com/grknylmz/ui5-template#readme",
+  "homepage": "https://github.com/grknylmz/listagem-invoices#readme",
   "devDependencies": {
     "browser-sync": "^3.0.4"
   }

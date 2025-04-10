@@ -1,4 +1,4 @@
-<mvc:View controllerName="ui5-template.ui5-template.controller.MainView"
+<mvc:View controllerName="listagem-invoices.listagem-invoices.controller.MainView"
 	xmlns="sap.ui.table"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:u="sap.ui.unified"

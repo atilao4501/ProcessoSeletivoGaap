@@ -2,12 +2,12 @@ sap.ui.define(
   [
     "sap/ui/core/UIComponent",
     "sap/ui/Device",
-    "ui5-template/ui5-template/model/models",
+    "listagem-invoices/listagem-invoices/model/models",
   ],
   function (UIComponent, Device, models) {
     "use strict";
 
-    return UIComponent.extend("ui5-template.ui5-template.Component", {
+    return UIComponent.extend("listagem-invoices.listagem-invoices.Component", {
       metadata: {
         manifest: "json",
       },

@@ -1,10 +1,10 @@
 sap.ui.define(
-  ["ui5-template/ui5-template/controller/BaseController"],
+  ["listagem-invoices/listagem-invoices/controller/BaseController"],
   function (BaseController) {
     "use strict";
 
     return BaseController.extend(
-      "ui5-template.ui5-template.controller.MainView",
+      "listagem-invoices.listagem-invoices.controller.MainView",
       {
         onInit: function () {
           this.getOwnerComponent().getRouter().initialize();

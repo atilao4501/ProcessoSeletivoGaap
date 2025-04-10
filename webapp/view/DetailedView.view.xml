@@ -1,4 +1,4 @@
-<mvc:View controllerName="ui5-template.ui5-template.controller.DetailedView"
+<mvc:View controllerName="listagem-invoices.listagem-invoices.controller.DetailedView"
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
     <Page title="Detalhes" showNavButton="true" navButtonPress="onNavBack">

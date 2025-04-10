@@ -20,7 +20,7 @@ sap.ui.define(
     "use strict";
 
     return Controller.extend(
-      "ui5-template.ui5-template.controller.InvoicesView",
+      "listagem-invoices.listagem-invoices.controller.InvoicesView",
       {
         onInit: function () {},
 
